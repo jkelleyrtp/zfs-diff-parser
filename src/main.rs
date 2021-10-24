@@ -24,7 +24,7 @@ fn main() {
                 if let Some(&remote_value) = remote_props.get(prop) {
                     if remote_value != local_value {
                         println!(
-                            "vol: {} prop: {} local: {} remote: {}\n",
+                            "vol: {} - {}: {} | {}",
                             local_vol, prop, local_value, remote_value
                         );
                     }
